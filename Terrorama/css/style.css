@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@300&family=Noto+Sans+Symbols+2&family=Quicksand&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+body {
+
+    background-color: rgba(217, 217, 217);
+
+}
+
+header {
+
+    background-color: rgba(20, 20, 20, 0.9);
+    height: 12rem;
+    position: sticky;
+    top: 0;
+
+}
+
+section {
+
+    text-align: center;
+
+}
+
+.li_container {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+
+}
+
+.li_container li {
+
+    list-style: none;
+    padding: 0rem 2rem;
+
+}
+
+.li_container li a {
+
+    font-family: 'Mada', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+
+
+}
+
+.section_container {
+
+    background-color: rgba(20, 20, 20, 1);
+
+    width: auto;
+    margin: 5rem;
+    padding: 2rem;
+
+}
+
+.posicion_imagen {
+
+    margin-left: auto;
+    padding: 2rem;
+
+
+}
+
+.posicion_logo {
+
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.centrar_imagen {
+
+    display: block;
+    margin: auto;
+
+
+}
+
+.titulos {
+
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+
+
+}
+
+.textos_enCaja {
+
+    font-size: 2rem;
+    font-family: 'Mada', sans-serif;
+    color: #FFFFFF;
+    padding: 1rem 1rem;
+}
+
+
+table tr td{
+
+    font-size: 1.5rem;
+    font-family: 'Mada', sans-serif;
+    color: #FFFFFF;
+    padding: 1rem 1rem;
+
+}
+
+table tr th{
+
+    text-align: center;
+
+}
+
+form label{
+
+    font-size: 1.5rem;
+    font-family: 'Mada', sans-serif;
+    color: #FFFFFF;
+    padding: 1rem 1rem;
+
+}
+
+.centrar_tablas{ 
+margin-left: auto;
+margin-right: auto;
+text-align: left; 
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer img {
+
+    padding-right: 5rem;
+}
